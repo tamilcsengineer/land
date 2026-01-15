@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | MPS</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">MPS</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="lands.html">Lands</a>
+    <a href="materials.html">Materials</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="contact-hero">
+  <h1>Connect With Us</h1>
+  <p>One tap is enough. We’re ready to help you.</p>
+</section>
+
+<!-- ACTION BUTTONS -->
+<section class="contact-actions">
+  <a href="tel:+919025200380" class="action-card call">📞 Call Now</a>
+  <a href="https://wa.me/919025200380" target="_blank" class="action-card whatsapp">💬 WhatsApp</a>
+  <a href="sms:+919025200380" class="action-card sms">📩 Send SMS</a>
+  <a href="mailto:tamilarasans280@gmail.com" class="action-card email">✉️ Email Us</a>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="contact-form-section">
+  <h2>Send a Message</h2>
+
+  <form class="contact-form" onsubmit="sendToWhatsApp(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn primary">Send Message</button>
+  </form>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
